@@ -5,6 +5,7 @@ const workExperienceData = [
     time: "Oct 2024 - Present",
     title: "Studio Associate, AI Guild - Next Lab",
     company: "Arizona State University",
+    companyUrl: "https://nextlab.asu.edu/",
     location: "Arizona, US",
     responsibilities: [
       "Collaborate on cutting-edge AI research projects with ASU's Next Lab",
@@ -18,8 +19,9 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Aug 2024 - Present",
-    title: "Solutions Engineer (Contractor), Cloud",
+    title: "Solutions Engineer (Contractor)",
     company: "iKala Interactive Media Inc.",
+    companyUrl: "https://www.ikala.com/",
     location: "Taipei, Taiwan",
     responsibilities: [
       "Provide technical consulting for cloud architecture design on GCP",
@@ -33,8 +35,9 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Oct 2024 - Jul 2024",
-    title: "Solutions Architect, Cloud",
+    title: "Solutions Architect",
     company: "iKala Interactive Media Inc.",
+    companyUrl: "https://www.ikala.com/",
     location: "Taipei, Taiwan",
     responsibilities: [
       "Designed and implemented cloud architectures for enterprise clients on GCP",
@@ -49,8 +52,9 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Jul 2024 - Sep 2024",
-    title: "Data Scientist Intern, IT-AI",
+    title: "Data Scientist Intern",
     company: "Advantech Co., Ltd.",
+    companyUrl: "https://www.advantech.com/",
     location: "Taipei, Taiwan",
     responsibilities: [
       "Developed multi-agent systems using LangGraph for R&D automation",
@@ -67,6 +71,7 @@ const workExperienceData = [
     time: "Mar 2024 - Jun 2024",
     title: "Backend Engineer & Tech Support Team Lead",
     company: "AWS Educate Cloud Ambassador Program",
+    companyUrl: "https://aws.amazon.com/education/awseducate/",
     location: "Taipei, Taiwan",
     responsibilities: [
       "Led technical support team for AWS Educate Taiwan program",
@@ -81,8 +86,9 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Feb 2024 - May 2024",
-    title: "Cloud Developer Intern, AI&Data",
+    title: "Cloud Developer Intern",
     company: "eCloudvalley Digital Technology Co., Ltd.",
+    companyUrl: "https://www.ecloudvalley.com/",
     location: "New Taipei, Taiwan",
     responsibilities: [
       "Developed cloud-based AI/ML solutions for clients",
@@ -98,6 +104,7 @@ const workExperienceData = [
     time: "Aug 2023 - Jan 2024",
     title: "QA-AI Intern",
     company: "CyberLink Corp.",
+    companyUrl: "https://www.cyberlink.com/",
     location: "New Taipei, Taiwan",
     responsibilities: [
       "Performed quality assurance testing for AI-powered video editing features",
@@ -141,7 +148,14 @@ export default function Experience() {
                     <h3 className="text-xl font-bold text-white mb-3 leading-tight group-hover:text-sky-400 transition-colors duration-300">
                       {item.title}
                     </h3>
-                    <p className="text-base text-sky-400 font-semibold mb-2">{item.company}</p>
+                    {item.companyUrl ? (
+                      <a href={item.companyUrl} target="_blank" rel="noopener noreferrer" className="text-sm text-sky-400 font-semibold mb-2 inline-block hover:text-sky-300 hover:underline transition-colors duration-300">
+                        {item.company}
+                        <i className="fas fa-external-link-alt text-sky-400/50 text-[10px] ml-1.5"></i>
+                      </a>
+                    ) : (
+                      <p className="text-sm text-sky-400 font-semibold mb-2">{item.company}</p>
+                    )}
                     <div className="flex items-center gap-2 text-sm text-neutral-400">
                       <i className="fas fa-map-marker-alt text-sky-400 text-xs"></i>
                       <span>{item.location}</span>

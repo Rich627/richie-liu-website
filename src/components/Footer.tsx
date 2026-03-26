@@ -103,27 +103,29 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Contact Info - Simple List */}
+          {/* Contact Info - Compact Grid */}
           <div>
-            <h4 className="text-white font-bold text-base mb-6 flex items-center gap-2">
+            <h4 className="text-white font-bold text-base mb-5 flex items-center gap-2">
               <i className="fas fa-paper-plane text-sky-400"></i>
               Get In Touch
             </h4>
-            <div className="space-y-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {contactInfo.map((item) => (
-                <div key={item.label} className="flex items-start gap-3">
-                  <i className={`${item.icon} text-sky-400 mt-1 text-lg`}></i>
+                <div key={item.label} className="flex items-center gap-3 px-4 py-3 rounded-lg bg-neutral-800/50 border border-neutral-700/50 hover:border-sky-500/30 transition-colors duration-300">
+                  <div className="w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-lg bg-sky-500/10">
+                    <i className={`${item.icon} text-sky-400 text-sm`}></i>
+                  </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs text-neutral-500 uppercase font-semibold mb-1">{item.label}</p>
+                    <p className="text-[10px] text-neutral-500 uppercase font-semibold">{item.label}</p>
                     {item.href ? (
                       <a
                         href={item.href}
-                        className="text-sm text-neutral-300 hover:text-sky-400 transition-colors duration-300 break-all block"
+                        className="text-sm text-neutral-300 hover:text-sky-400 transition-colors duration-300 truncate block"
                       >
                         {item.value}
                       </a>
                     ) : (
-                      <p className="text-sm text-neutral-300">{item.value}</p>
+                      <p className="text-sm text-neutral-300 truncate">{item.value}</p>
                     )}
                   </div>
                 </div>

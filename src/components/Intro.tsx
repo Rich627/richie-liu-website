@@ -85,7 +85,7 @@ export default function Intro() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 animate-slide-up delay-300">
               <div className="group relative p-6 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 rounded-2xl border border-neutral-700/50 hover:border-sky-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10">
                 <div className="text-5xl font-black bg-gradient-to-br from-sky-400 to-blue-500 bg-clip-text text-transparent mb-2">
-                  2+
+                  3+
                 </div>
                 <div className="text-neutral-400 text-xs font-medium uppercase tracking-wider">
                   Years Experience
