@@ -4,7 +4,7 @@ const workExperienceData = [
     icon: "fas fa-briefcase",
     time: "Oct 2024 - Present",
     title: "Studio Associate, AI Guild - Next Lab",
-    company: "Arizona State University",
+    company: "Next Lab, Arizona State University",
     companyUrl: "https://nextlab.asu.edu/",
     location: "Arizona, US",
     responsibilities: [
@@ -19,7 +19,7 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Aug 2024 - Present",
-    title: "Solutions Engineer (Contractor)",
+    title: "Solutions Engineer",
     company: "iKala Interactive Media Inc.",
     companyUrl: "https://www.ikala.com/",
     location: "Taipei, Taiwan",
@@ -69,9 +69,9 @@ const workExperienceData = [
   {
     icon: "fas fa-briefcase",
     time: "Mar 2024 - Jun 2024",
-    title: "Backend Engineer & Tech Support Team Lead",
-    company: "AWS Educate Cloud Ambassador Program",
-    companyUrl: "https://aws.amazon.com/education/awseducate/",
+    title: "AWS Educate Cloud Ambassador",
+    company: "Amazon Web Services Taiwan",
+    companyUrl: "https://aws.amazon.com/tw/",
     location: "Taipei, Taiwan",
     responsibilities: [
       "Led technical support team for AWS Educate Taiwan program",
@@ -141,7 +141,7 @@ export default function Experience() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-sky-500/5 to-transparent rounded-full blur-2xl group-hover:from-sky-500/10 transition-all duration-300"></div>
 
               {/* Content */}
-              <div className="relative">
+              <div className="relative flex flex-col h-full">
                 {/* Header with Time */}
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <div className="flex-1 min-w-0">
@@ -186,24 +186,19 @@ export default function Experience() {
 
                 {/* Key Achievements */}
                 {item.achievements && item.achievements.length > 0 && (
-                  <div>
+                  <div className="mt-auto pt-4">
                     <div className="flex items-center gap-2 mb-3">
                       <i className="fas fa-trophy text-yellow-400 text-sm"></i>
                       <h4 className="text-sm font-bold text-neutral-300">Key Achievements</h4>
                     </div>
-                    <div className="space-y-2">
+                    <ul className="space-y-1.5 pl-1">
                       {item.achievements.map((achievement, idx) => (
-                        <div
-                          key={idx}
-                          className="flex items-start gap-3 p-3 bg-gradient-to-r from-emerald-500/5 to-transparent rounded-lg border border-emerald-500/10"
-                        >
-                          <div className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center">
-                            <i className="fas fa-check text-emerald-400 text-xs"></i>
-                          </div>
-                          <span className="text-sm text-neutral-200 leading-relaxed flex-1">{achievement}</span>
-                        </div>
+                        <li key={idx} className="flex items-start gap-2 text-sm text-neutral-200 leading-relaxed">
+                          <i className="fas fa-check text-emerald-400 text-xs mt-1.5 flex-shrink-0"></i>
+                          <span>{achievement}</span>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
                 )}
               </div>
