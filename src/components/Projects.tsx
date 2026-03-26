@@ -36,12 +36,12 @@ const projectsData = [
   },
   {
     imageSrc: "/img/project/whatsapp-chatbot.png",
-    title: "WhatsApp AI Chatbot Platform",
-    description: "Full-stack WhatsApp chatbot with two deployment options: local development (Flask + Ollama + LangGraph) and AWS production (Lambda + Bedrock + DynamoDB). Features multi-agent architecture (Router, RAG, General, Summarizer), runtime model switching, and per-user preferences. Terraform IaC for infrastructure deployment.",
-    impact: "Dual deployment options • Multi-agent LangGraph architecture • RAG knowledge base",
-    tags: ["AWS Lambda", "Bedrock", "LangGraph", "DynamoDB", "Terraform", "Docker"],
+    title: "WhatsApp Learning Chatbot — ASU AI Guild, Next Lab",
+    description: "AI-powered educational system delivering personalized learning experiences directly within WhatsApp, addressing the global digital divide. Students ask questions, take dynamically generated quizzes, and track progress via conversational AI. Educators upload content (PDFs, presentations, videos) and monitor engagement through a web dashboard. Built with LangGraph multi-agent orchestration for intent routing, question answering, quiz generation, and progress tracking. Evolved from Flask + Ollama + ChromaDB prototype to production AWS ECS Fargate microservices architecture.",
+    impact: "Personalized AI tutoring on low-end smartphones & 3G networks • Multi-agent LangGraph orchestration • Production AWS ECS Fargate deployment",
+    tags: ["LangGraph", "Flask", "ChromaDB", "AWS Lambda", "API Gateway", "ECS Fargate", "WhatsApp Business API"],
     githubUrl: "https://github.com/Rich627/whatsapp-ai-chatbot",
-    liveDemoUrl: null,
+    liveDemoUrl: "https://nextlab.asu.edu/whatsapp-learning-chatbot/",
     featured: true
   },
   {
