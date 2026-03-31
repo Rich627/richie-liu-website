@@ -21,7 +21,7 @@ export default function SkillSet() {
                 Languages & Programming
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Python', 'C', 'C++', 'R', 'SQL'].map((skill) => (
+                {['Python', 'C', 'C++', 'Java', 'R', 'SQL/NoSQL'].map((skill) => (
                   <span key={skill} className="bg-sky-500/10 border border-sky-500/30 text-sky-300 px-3 py-1.5 rounded-lg font-medium text-sm hover:bg-sky-500/20 transition-colors duration-300">
                     {skill}
                   </span>
@@ -36,7 +36,7 @@ export default function SkillSet() {
                 ML & Data Science
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['PyTorch', 'TensorFlow', 'Scikit-learn', 'Data Pipeline', 'Data Lake', 'Data Visualization', 'Data Analytics'].map((skill) => (
+                {['PyTorch', 'TensorFlow', 'Scikit-learn', 'Deep Learning', 'Data Pipeline', 'Data Analytics'].map((skill) => (
                   <span key={skill} className="bg-sky-500/10 border border-sky-500/30 text-sky-300 px-3 py-1.5 rounded-lg font-medium text-sm hover:bg-sky-500/20 transition-colors duration-300">
                     {skill}
                   </span>
@@ -66,7 +66,7 @@ export default function SkillSet() {
                 DevOps & Deployment
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Docker', 'Git', 'Linux', 'CI/CD', 'Terraform', 'Jira', 'Github Action'].map((skill) => (
+                {['Docker', 'Git', 'Linux', 'CI/CD', 'IaC', 'NextJS', 'React', 'Claude Code'].map((skill) => (
                   <span key={skill} className="bg-sky-500/10 border border-sky-500/30 text-sky-300 px-3 py-1.5 rounded-lg font-medium text-sm hover:bg-sky-500/20 transition-colors duration-300">
                     {skill}
                   </span>

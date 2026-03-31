@@ -105,6 +105,36 @@ const projectsData = [
     featured: true
   },
   {
+    imageSrc: "/img/project/smartcard.png",
+    title: "SmartCard — iOS Credit Card Rewards Optimizer",
+    description: "iOS app that helps users maximize credit card rewards by recommending the optimal card for each purchase. Maintains a database of 60+ US credit cards, tracks rewards across fixed, rotating, and selectable bonus categories. Features OCR-powered receipt scanning, spending analytics, home screen widget, and cross-device Firebase sync.",
+    impact: "60+ credit cards supported • OCR expense logging • Real-time reward optimization",
+    tags: ["Swift", "SwiftUI", "MVVM", "WidgetKit", "Vision OCR", "Firebase"],
+    githubUrl: "https://github.com/Rich627/SmartCard",
+    liveDemoUrl: null,
+    featured: true
+  },
+  {
+    imageSrc: "/img/project/ai-fitness-coach.jpg",
+    title: "AI Fitness Coach — WhatsApp Personal Trainer",
+    description: "AI-powered personal fitness assistant operating through WhatsApp. Users track workouts, nutrition, sleep, and weight while receiving intelligent suggestions and automated reminders via chat. Supports meal logging via text or photos with Claude Vision for macro estimation, personalized training plans, and a customizable \"Soul System\" for coach personality.",
+    impact: "Photo-based meal analysis • Automated reminders • Personalized training plans",
+    tags: ["Python", "Claude API", "WhatsApp", "OpenAI Whisper", "SQLite", "Cron"],
+    githubUrl: "https://github.com/Rich627/ai-fitness-coach",
+    liveDemoUrl: null,
+    featured: true
+  },
+  {
+    imageSrc: "/img/project/whatsapp-claude-plugin.png",
+    title: "WhatsApp Claude Plugin",
+    description: "WhatsApp channel plugin for Claude Code that connects WhatsApp as a linked device and bridges messages to a Claude Code session. Enables two-way messaging, voice transcription, group chat support, permission relay system, cron scheduling, and 24/7 operation via MCP (Model Context Protocol).",
+    impact: "Two-way WhatsApp ↔ Claude Code bridge • Voice transcription • 24/7 operation",
+    tags: ["TypeScript", "Baileys", "MCP", "WhatsApp API", "Claude Code"],
+    githubUrl: "https://github.com/Rich627/whatsapp-claude-plugin",
+    liveDemoUrl: null,
+    featured: true
+  },
+  {
     imageSrc: "/img/project/advantech-hackathon.jpg",
     title: "Smart Infrastructure Inspection System (MVP)",
     description: "MVP prototype developed for 2025 Taiwan GenAI Hackathon by Ambassador Avengers Assembly. Designed edge-cloud architecture concept using Advantech ICAM-540 camera with YOLOv11 for real-time anomaly detection. Terraform IaC deployment on AWS (Bedrock, Lambda, S3, OpenSearch).",
