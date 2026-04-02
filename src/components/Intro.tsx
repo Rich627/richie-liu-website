@@ -103,7 +103,7 @@ export default function Intro() {
               </div>
               <div className="group relative p-6 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 rounded-2xl border border-neutral-700/50 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="text-5xl font-black bg-gradient-to-br from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2">
-                  9+
+                  14+
                 </div>
                 <div className="text-neutral-400 text-xs font-medium uppercase tracking-wider">
                   Certifications

@@ -2,117 +2,100 @@
 const workExperienceData = [
   {
     icon: "fas fa-briefcase",
-    time: "Oct 2024 - Present",
+    time: "Oct 2025 - Present",
     title: "Studio Associate, AI Guild - Next Lab",
     company: "Next Lab, Arizona State University",
     companyUrl: "https://nextlab.asu.edu/",
     location: "Arizona, US",
     responsibilities: [
-      "Collaborate on cutting-edge AI research projects with ASU's Next Lab",
-      "Develop and deploy generative AI applications for academic and industry partners",
-      "Contribute to AI/ML workshops and educational initiatives"
+      "Built and integrated a multi-agent WhatsApp learning assistant on AWS ECS, enabling students to access AI-driven study support via a chat interface",
+      "Used LangSmith for LLM tracing, monitoring, and evaluation"
     ],
     achievements: [
-      "Led development of AI-powered educational tools serving 200+ students"
+      "Enabled AI-driven study support for students through a conversational chat interface"
     ]
   },
   {
     icon: "fas fa-briefcase",
-    time: "Aug 2024 - Present",
-    title: "Solutions Engineer",
+    time: "Aug 2025 - Apr 2026",
+    title: "Solutions Engineer (Contractor)",
     company: "iKala Interactive Media Inc.",
     companyUrl: "https://www.ikala.com/",
-    location: "Taipei, Taiwan",
+    location: "Remote",
     responsibilities: [
-      "Provide technical consulting for cloud architecture design on GCP",
-      "Support clients in AI/ML solution implementation and optimization",
-      "Deliver technical workshops and training sessions"
+      "Migrated ETL processes from EC2 to AWS Glue to optimize performance",
+      "Worked directly with a U.S.-based team on an IT migration project for the Webscale platform, supporting AWS-based architecture design and implementation"
     ],
     achievements: [
-      "Maintained 100% client satisfaction across all delivered projects"
+      "Reduced ETL processing time by 40% through Glue migration"
     ]
   },
   {
     icon: "fas fa-briefcase",
-    time: "Oct 2024 - Jul 2024",
+    time: "Oct 2024 - Jul 2025",
     title: "Solutions Architect",
     company: "iKala Interactive Media Inc.",
     companyUrl: "https://www.ikala.com/",
     location: "Taipei, Taiwan",
     responsibilities: [
-      "Designed and implemented cloud architectures for enterprise clients on GCP",
-      "Led technical pre-sales discussions and proof-of-concept development",
-      "Optimized cloud infrastructure costs and performance"
+      "Designed and deployed secure AWS environments with DR sites and HA architectures for MongoDB workloads on EC2, using VPC peering, WAF, and CloudFront for government clients",
+      "Deployed an AWS Landing Zone using Terraform (CAF), supporting solution design and driving implementation of AWS Control Tower, SSO, IAM, and centralized security services"
     ],
     achievements: [
-      "Delivered 10+ successful cloud migration and optimization projects",
-      "Achieved 30% average cost reduction for client cloud infrastructure"
+      "Enabled scalable governance across 80+ AWS accounts",
+      "Improved availability and compliance for government clients"
     ]
   },
   {
     icon: "fas fa-briefcase",
     time: "Jul 2024 - Sep 2024",
-    title: "Data Scientist Intern",
+    title: "Data Scientist Intern, IT-AI",
     company: "Advantech Co., Ltd.",
     companyUrl: "https://www.advantech.com/",
     location: "Taipei, Taiwan",
     responsibilities: [
-      "Developed multi-agent systems using LangGraph for R&D automation",
-      "Built supply chain forecasting models using Amazon Forecast",
-      "Implemented video translation platform with LLMs"
+      "Applied time-series analysis with Amazon Forecast for demand planning",
+      "Built a multi-agent system with LangGraph, exposing GraphQL APIs and integrating a NoSQL datastore, deployed on Azure using Docker Compose",
+      "Implemented a video translation platform integrating open-source LLMs and neural networks with a Gradio interface"
     ],
     achievements: [
-      "Achieved 90% accuracy in part demand forecasting",
-      "Reduced R&D issue resolution time by 40% with multi-agent system"
+      "Achieved 90% accuracy in demand forecasting",
+      "Reduced R&D issue resolution time by 30% with multi-agent system",
+      "Improved translation speed by 50%"
     ]
   },
   {
     icon: "fas fa-briefcase",
-    time: "Mar 2024 - Jun 2024",
+    time: "Mar 2024 - Jun 2025",
     title: "AWS Educate Cloud Ambassador",
     company: "Amazon Web Services Taiwan",
     companyUrl: "https://aws.amazon.com/tw/",
     location: "Taipei, Taiwan",
     responsibilities: [
-      "Led technical support team for AWS Educate Taiwan program",
-      "Developed serverless microservices for workshop automation",
-      "Managed cloud infrastructure and CI/CD pipelines"
+      "Led a 7-member team within an Agile framework using Jira",
+      "Hosted an AWS Amplify and Amazon Bedrock workshop for 80+ participants on GenAI chatbot development",
+      "Delivered live online AWS training sessions via YouTube Live for 400+ participants, covering Amazon Q Developer, SageMaker, Route 53, and CloudFront"
     ],
     achievements: [
-      "Built email delivery system reducing operational workload by 80%",
-      "Maintained system costs at $1.94/month while serving 200+ users"
+      "Built serverless email system reducing workload by 80% at $1.94/month",
+      "Achieved 4.85 average satisfaction rating across training sessions",
+      "Launched a six-month certification program with 1,000+ registrations"
     ]
   },
   {
     icon: "fas fa-briefcase",
     time: "Feb 2024 - May 2024",
-    title: "Cloud Developer Intern",
+    title: "Cloud Developer Intern, AI&Data",
     company: "eCloudvalley Digital Technology Co., Ltd.",
     companyUrl: "https://www.ecloudvalley.com/",
     location: "New Taipei, Taiwan",
     responsibilities: [
-      "Developed cloud-based AI/ML solutions for clients",
-      "Implemented data pipelines and ETL processes on AWS",
-      "Participated in technical consulting and client presentations"
+      "Optimized ETL with AWS Glue and PySpark for large-scale data processing",
+      "Leveraged AWS Personalize to build recommendation systems"
     ],
     achievements: [
-      "Successfully delivered 3 client projects on time and within budget"
-    ]
-  },
-  {
-    icon: "fas fa-briefcase",
-    time: "Aug 2023 - Jan 2024",
-    title: "QA-AI Intern",
-    company: "CyberLink Corp.",
-    companyUrl: "https://www.cyberlink.com/",
-    location: "New Taipei, Taiwan",
-    responsibilities: [
-      "Performed quality assurance testing for AI-powered video editing features",
-      "Developed automated testing scripts for ML model validation",
-      "Collaborated with ML engineers to improve model performance"
-    ],
-    achievements: [
-      "Identified and documented 50+ critical bugs, improving product quality"
+      "Reduced data preprocessing time by 20%",
+      "Achieved 90% precision marketing rate with recommendation system"
     ]
   }
 ];
