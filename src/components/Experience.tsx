@@ -24,10 +24,11 @@ const workExperienceData = [
     location: "Remote",
     responsibilities: [
       "Migrated ETL processes from EC2 to AWS Glue to optimize performance",
-      "Worked directly with a U.S.-based team on an IT migration project for the Webscale platform, supporting AWS-based architecture design and implementation"
+      "Deployed an AWS Landing Zone using Terraform (CAF), supporting solution design and driving implementation of AWS Control Tower, SSO-based access, IAM, and centralized security services"
     ],
     achievements: [
-      "Reduced ETL processing time by 40% through Glue migration"
+      "Reduced ETL processing time by 40% through Glue migration",
+      "Enabled scalable governance across 80+ AWS accounts"
     ]
   },
   {
@@ -39,11 +40,11 @@ const workExperienceData = [
     location: "Taipei, Taiwan",
     responsibilities: [
       "Designed and deployed secure AWS environments with DR sites and HA architectures for MongoDB workloads on EC2, using VPC peering, WAF, and CloudFront for government clients",
-      "Deployed an AWS Landing Zone using Terraform (CAF), supporting solution design and driving implementation of AWS Control Tower, SSO, IAM, and centralized security services"
+      "Led presales and GenAI solutioning for 60+ customer engagements, delivering high-fidelity PoCs and technical demos using Amazon Bedrock, SageMaker, Vertex AI, and AgentSpace to accelerate customer adoption"
     ],
     achievements: [
-      "Enabled scalable governance across 80+ AWS accounts",
-      "Improved availability and compliance for government clients"
+      "Improved availability and compliance for government clients",
+      "Accelerated customer adoption through impactful PoCs and demos"
     ]
   },
   {
@@ -73,12 +74,14 @@ const workExperienceData = [
     location: "Taipei, Taiwan",
     responsibilities: [
       "Led a 7-member team within an Agile framework using Jira",
-      "Hosted an AWS Amplify and Amazon Bedrock workshop for 80+ participants on GenAI chatbot development",
-      "Delivered live online AWS training sessions via YouTube Live for 400+ participants, covering Amazon Q Developer, SageMaker, Route 53, and CloudFront"
+      "Hosted an AWS Amplify and Amazon Bedrock workshop for 80+ participants, demonstrating the use of Bedrock Flows and agentic workflows to build a GenAI chatbot for concert data analysis and visualization",
+      "Delivered live online AWS training sessions via YouTube Live for 400+ participants, covering Amazon Q Developer, SageMaker, Route 53, and CloudFront",
+      "Conducted a hands-on workshop using CloudFront and Lambda@Edge"
     ],
     achievements: [
       "Built serverless email system reducing workload by 80% at $1.94/month",
       "Achieved 4.85 average satisfaction rating across training sessions",
+      "Earned 4.9 satisfaction rating for CloudFront/Lambda@Edge workshop",
       "Launched a six-month certification program with 1,000+ registrations"
     ]
   },
