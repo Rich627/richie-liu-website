@@ -1,5 +1,11 @@
 const certificatesData = [
   {
+    href: "https://www.credly.com/badges/d63c7c3d-52dc-4b1a-88e1-7f0ee0bca576/public_url",
+    imgSrc: "/img/certifiacate/AWS-Certified-Generative-AI-Developer-Professional.png",
+    alt: "AWS Certified Generative AI Developer - Professional",
+    title: "AWS Certified Generative AI Developer - Professional",
+  },
+  {
     href: "https://www.credly.com/badges/84e8e000-b8a2-438e-b59a-97bf38bc6f8c/public_url",
     imgSrc: "/img/certifiacate/GCP-Certified-Cloud-Architect-Professional.png",
     alt: "GCP Cloud Architect Professional",
