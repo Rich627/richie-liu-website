@@ -17,33 +17,21 @@ const workExperienceData = [
   },
   {
     icon: "fas fa-briefcase",
-    time: "Aug 2025 - Apr 2026",
-    title: "Solutions Engineer (Contractor)",
+    time: "Oct 2024 - Present",
+    title: "Solutions Architect (AI/ML)",
     company: "iKala Interactive Media Inc.",
     companyUrl: "https://www.ikala.com/",
-    location: "Remote",
+    location: "Taipei, Taiwan / Remote",
     responsibilities: [
-      "Migrated ETL processes from EC2 to AWS Glue to optimize performance",
-      "Deployed an AWS Landing Zone using Terraform (CAF), supporting solution design and driving implementation of AWS Control Tower, SSO-based access, IAM, and centralized security services"
+      "Led GenAI solutioning for 60+ customer engagements on Amazon Bedrock, SageMaker, Vertex AI, and AgentSpace — delivering high-fidelity PoCs and advising on production RAG design including chunking strategies, embedding model selection, and retrieval quality",
+      "Architected and executed AWS migration for a Magento 2 e-commerce platform with HA architecture across ECS, EC2, ALB, and RDS, secured by WAF and CloudFront with Redis caching",
+      "Built Infrastructure-as-Code automation with Terraform (AWS CAF) to deploy AWS Landing Zone, Control Tower, SSO-based access, IAM, and centralized security services",
+      "Migrated ETL processes from EC2 to AWS Glue to optimize performance for downstream modeling and reporting"
     ],
     achievements: [
       "Reduced ETL processing time by 40% through Glue migration",
-      "Enabled scalable governance across 80+ AWS accounts"
-    ]
-  },
-  {
-    icon: "fas fa-briefcase",
-    time: "Oct 2024 - Jul 2025",
-    title: "Solutions Architect",
-    company: "iKala Interactive Media Inc.",
-    companyUrl: "https://www.ikala.com/",
-    location: "Taipei, Taiwan",
-    responsibilities: [
-      "Designed and deployed secure AWS environments with DR sites and HA architectures for MongoDB workloads on EC2, using VPC peering, WAF, and CloudFront for government clients",
-      "Led presales and GenAI solutioning for 60+ customer engagements, delivering high-fidelity PoCs and technical demos using Amazon Bedrock, SageMaker, Vertex AI, and AgentSpace to accelerate customer adoption"
-    ],
-    achievements: [
-      "Improved availability and compliance for government clients",
+      "Cut infrastructure cost by 20% on the Magento 2 migration",
+      "Scaled governance across 80+ AWS accounts",
       "Accelerated customer adoption through impactful PoCs and demos"
     ]
   },
