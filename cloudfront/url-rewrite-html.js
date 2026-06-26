@@ -3,7 +3,7 @@
 // e.g., /resume -> /resume.html
 //
 // Deployed to: arn:aws:cloudfront::070576557102:function/url-rewrite-html
-// Associated with: E198OF3F75433Q (rich-liu.com)
+// Associated with: E198OF3F75433Q (richie-liu.com)
 
 function handler(event) {
     var request = event.request;

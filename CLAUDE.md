@@ -84,7 +84,7 @@ Deployment is automated via GitHub Actions (`.github/workflows/deploy.yml`):
 
 ### S3 Configuration (Reference Only)
 
-- Bucket: `rich-liu.com`
+- Bucket: `richie-liu.com`
 - Region: `ap-northeast-1`
 - Type: Static website hosting
 
@@ -92,7 +92,7 @@ Deployment is automated via GitHub Actions (`.github/workflows/deploy.yml`):
 
 - Distribution ID: `E198OF3F75433Q`
 - Domain: `d3qohzxcv73fr3.cloudfront.net`
-- Aliases: `rich-liu.com`, `www.rich-liu.com`
+- Aliases: `richie-liu.com`, `www.richie-liu.com`
 
 **CloudFront Function** (`cloudfront/url-rewrite-html.js`):
 - Rewrites URLs without extensions to `.html` (e.g., `/resume` → `/resume.html`)
@@ -104,7 +104,7 @@ Deployment is automated via GitHub Actions (`.github/workflows/deploy.yml`):
 **IMPORTANT: When using AWS CLI commands for this project, always use the profile `my-profile`:**
 
 ```bash
-aws s3 ls s3://rich-liu.com --profile my-profile
+aws s3 ls s3://richie-liu.com --profile my-profile
 aws cloudfront create-invalidation --distribution-id E198OF3F75433Q --profile my-profile
 ```
 
