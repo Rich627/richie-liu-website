@@ -17,7 +17,7 @@ const workExperienceData = [
   },
   {
     icon: "fas fa-briefcase",
-    time: "Oct 2024 - Present",
+    time: "Oct 2024 - Oct 2026",
     title: "Solutions Architect (AI/ML)",
     company: "iKala Interactive Media Inc.",
     companyUrl: "https://www.ikala.com/",
